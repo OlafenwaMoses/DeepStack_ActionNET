@@ -2,6 +2,7 @@
 
 This repository provides a custom DeepStack model that has been trained and can be used for creating a new `object detection API` for detecting **16 human actions** present in the [ActionNET Dataset](https://github.com/OlafenwaMoses/Action-Net) dataset. Also included in this repository is that dataset with the **YOLO annotations**.
 
+[>> Watch Video Demo](https://www.youtube.com/watch?v=msS8SooOPlc)
 
 - **Download DeepStack Model and Dataset**
 - **Create API and Detect Objects**
