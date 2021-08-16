@@ -4,7 +4,7 @@ import os
 config = ServerConfig("http://localhost:80")
 detector = Detection(config=config, name="actionnet")
 
-detections = detector.detectObject(image=os.path.join("images", "test.jpg"), output=os.path.join("images", "test_detected.jpg"))
+detections = detector.detectObject(image=os.path.join("images", "test5.jpg"), output=os.path.join("images", "test5_detected.jpg"))
 
 for detection in detections:
     print("Name: {}".format(detection.label))
