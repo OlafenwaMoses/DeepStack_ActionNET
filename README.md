@@ -16,7 +16,7 @@ This repository provides a custom DeepStack model that has been trained and can 
 
 You can download the pre-trained **DeepStack_ActionNET** model and the annotated dataset via the links below.
 
-- [YOLOv5x DeepStack Model](https://github.com/OlafenwaMoses/DeepStack_ActionNET/releases/tag/v1)
+- [YOLOv5x DeepStack Model](https://github.com/OlafenwaMoses/DeepStack_ActionNET/releases/tag/v2)
 - [ActionNET with YOLO annotation](https://deepquest.sfo2.digitaloceanspaces.com/deepstack/zeus/actionnet_yolo.zip)
 
 
