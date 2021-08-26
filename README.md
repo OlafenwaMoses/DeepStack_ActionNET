@@ -45,7 +45,7 @@ The Trained Model can detect the following actions in images and videos.
 To start detecting, follow the steps below
 
 - **Install DeepStack:** Install DeepStack AI Server with instructions on DeepStack's documentation via [https://docs.deepstack.cc](https://docs.deepstack.cc/index.html#installation)
-- **Download Custom Model:** Download the trained custom model `actionnet.pt` from [this GitHub release](https://github.com/OlafenwaMoses/DeepStack_ActionNET/releases/tag/v1). Create a folder on your machine and move the downloaded model to this folder.
+- **Download Custom Model:** Download the trained custom model `actionnetv2.pt` from [this GitHub release](https://github.com/OlafenwaMoses/DeepStack_ActionNET/releases/tag/v2). Create a folder on your machine and move the downloaded model to this folder.
 
     E.g A path on Windows Machine `C\Users\MyUser\Documents\DeepStack-Models`, which will make your model file path `C\Users\MyUser\Documents\DeepStack-Models\actionnet.pt`
 
@@ -64,7 +64,7 @@ To start detecting, follow the steps below
     ```
     Once DeepStack runs, you will see a log like the one below in your `Terminal/Console`
 
-    ![](images/deepstack-log.png)
+    ![](images/deepstack-log2.png)
 
     That means DeepStack is running your custom `actionnet.pt` model and now ready to start detecting actions images via the API endpoint `http://localhost:80/v1/vision/custom/actionnet` or `http://your_machine_ip:80/v1/vision/custom/actionnet`
 
